@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaQuery.css">
+    <!-- icon links -->
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <title>Anjit</title>
+  </head>
+  <body>
+    <nav>
+        <div class="navbar-mainbox">
+            <h1>A.</h1>
+            <div class="navbar-links-div" id="navbar-links-div">
+              <ul class="navbar-links">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#project">PROJECTS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+              </ul>
+            </div>
+            <button class="menu-outline-btn" onclick="displayLinks();">
+              <ion-icon
+                id="navbar-icon"
+                class="menu-outline"
+                name="menu-outline"
+              ></ion-icon>
+            </button>
+          </div>
+    </nav>
+    <div class="hero-section" id="home">
+      <div class="boxes">
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+      <div class="intro-section-main-div">
+        <div class="intro-section">
+          <p>Hello, I'm <span class="my-name">Anjit Gc</span>.</p>
+          <p>I'm a full-stack web developer.</p>
+          <button class="download-cv-btn">Download CV &rarr;</button>
+        </div>
+      </div>
+    </div>
+    <div class="About" id="about">
+      <h1 class="section-title">ABOUT</h1>
+      <div class="about-secondary-box">
+        <div class="my-intro-section">
+          <div class="my-image">
+            <img src="./Img/profile-img.jpg" alt="profile image" />
+          </div>
+          <div class="my-description">
+            <h2>Who am I?</h2>
+            <p>
+              Full stack developer from Nepal with expertise in front-end,
+              back-end, and database integration. Creating dynamic web
+              applications for exceptional user experiences.
+            </p>
+          </div>
+        </div>
+        <div class="my-skills-section">
+          <div class="skills-sections">
+            <p class="skill-header">Programming Language</p>
+            <div class="skills-name-section">
+              <p class="skills-name">Java</p>
+              <p class="skills-name">C++</p>
+              <p class="skills-name">C</p>
+              <p class="skills-name">JavaScript</p>
+              <p class="skills-name">Php</p>
+              <p class="skills-name">Html</p>
+              <p class="skills-name">Css</p>
+            </div>
+          </div>
+          <div class="skills-sections">
+            <p class="skill-header">Frameworks</p>
+            <div class="skills-name-section">
+              <p class="skills-name">React</p>
+              <p class="skills-name">Node js</p>
+              <p class="skills-name">Express js</p>
+              <p class="skills-name">Bootstrap</p>
+              <p class="skills-name">Asp.net</p>
+            </div>
+          </div>
+          <div class="skills-sections">
+            <p class="skill-header">Database</p>
+            <div class="skills-name-section">
+              <p class="skills-name">MySql</p>
+              <p class="skills-name">PostgreSql</p>
+            </div>
+          </div>
+          <div class="skills-sections">
+            <p class="skill-header">Version control system</p>
+            <div class="skills-name-section">
+              <p class="skills-name">Github</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="Project" id="project">
+      <h1 class="section-title">PROJECTS</h1>
+      <div class="project-secondary-box">
+        <div class="project-list">
+          <div class="project-box">
+            <div class="project-screen-shot">
+              <img src="./Img/Screenshot 2023-07-11 000241.png" alt="" />
+            </div>
+            <div class="project-descriptions-link-btn">
+              <h2 class="project-title">DeliverEase - Food Ordering Site</h2>
+              <p class="project-description">
+                Deliverease is a web-based application similar to Foodmandu
+                enabling users to order food from multiple restaurants, rate
+                experiences, manage profiles, and add favorites. It empowers
+                restaurant owners to register, sell food, analyze business,
+                provide discounts, manage menus, and respond to orders.
+                Implemented using HTML, CSS, JavaScript, Laravel, and MySQL.
+              </p>
+              <a
+                href="https://github.com/AnjitGC741/DeliverEase"
+                class="source-code-btn"
+                target="_blank"
+              >
+                Source code
+              </a>
+            </div>
+          </div>
+          <div class="project-box">
+            <div class="project-screen-shot">
+              <img src="./Img/Screenshot 2023-07-10 235940.png" alt="" />
+            </div>
+            <div class="project-descriptions-link-btn">
+              <h2 class="project-title">
+                Gameland - Multimedia Download Platform
+              </h2>
+              <p class="project-description">
+                Gameland is a web-based platform allowing users to download
+                games, movies, and TV shows. Admin functionalities for managing
+                content and analyzing status.Developed using HTML, CSS,
+                JavaScript, ASP.NET, and Microsoft SQL.
+              </p>
+              <a
+                href="https://github.com/AnjitGC741/gameLand"
+                class="source-code-btn"
+                target="_blank"
+              >
+                Source code
+              </a>
+            </div>
+          </div>
+          <div class="project-box">
+            <div class="project-screen-shot">
+              <img src="./Img/Screenshot (473).png" alt="" />
+            </div>
+            <div class="project-descriptions-link-btn">
+              <h2 class="project-title">WalletWizard - Expenses Tracker</h2>
+              <p class="project-description">
+                Wallet-Wizard is a web-based expense tracking application. It
+                helps users manage their expenses, create budgets, and gain
+                insights into their spending habits. With features like
+                transaction management, expense categorization, budget
+                monitoring, and data visualization, Wallet-Wizard provides a
+                user-friendly and efficient solution for tracking and optimizing
+                personal and business expenses. Built with React, Node.js,
+                Express, and PostgreSQL.
+              </p>
+              <a
+                href="https://github.com/AnjitGC741/wallet-wizard"
+                class="source-code-btn"
+                target="_blank"
+              >
+                Source code
+              </a>
+            </div>
+          </div>
+          <div class="project-box">
+            <div class="project-screen-shot">
+              <img src="./Img/Screenshot 2023-07-11 131903.png" alt="" />
+            </div>
+            <div class="project-descriptions-link-btn">
+              <h2 class="project-title">Netflix-clone</h2>
+              <p class="project-description">
+                Deliverease is a web-based application similar to Foodmandu
+                enabling users to order food from multiple restaurants, rate
+                experiences, manage profiles, and add favorites. It empowers
+                restaurant owners to register, sell food, analyze business,
+                provide discounts, manage menus, and respond to orders.
+                Implemented using HTML, CSS, JavaScript, Laravel, and MySQL.
+              </p>
+              <a href="#" class="source-code-btn" target="_blank">
+                Source code
+              </a>
+            </div>
+          </div>
+          <div class="project-box">
+            <div class="project-screen-shot">
+              <img src="./Img/javaProject.jpg" alt="" />
+            </div>
+            <div class="project-descriptions-link-btn">
+              <h2 class="project-title">WalletWizard - Food Ordering Site</h2>
+              <p class="project-description">
+                Deliverease is a web-based application similar to Foodmandu
+                enabling users to order food from multiple restaurants, rate
+                experiences, manage profiles, and add favorites. It empowers
+                restaurant owners to register, sell food, analyze business,
+                provide discounts, manage menus, and respond to orders.
+                Implemented using HTML, CSS, JavaScript, Laravel, and MySQL.
+              </p>
+              <a
+                href="https://github.com/AnjitGC741/java-project-game"
+                target="_blank"
+                class="source-code-btn"
+              >
+                Source code
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="Contact" id="contact">
+      <h1 class="section-title" style="color: #ffffff">Contact</h1>
+      <div class="form-section">
+        <form id="submitMessage">
+          <input type="text" placeholder="Name" id="senderName" name="senderName" required />
+          <input type="email" placeholder="Enter Email" id="senderEmail" name="senderEmail" required  pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"/>
+          <textarea
+            type="text"
+            rows="10"
+            id="msgValue"
+            name="msgValue"
+            placeholder="Enter Your Message"
+            required
+          ></textarea>
+          <button type="submit" class="submit-btn">SUBMIT</button>
+        </form>
+      </div>
+    </div>
+    <div class="social-contact">
+      <div class="social-contact-link">
+        <a href="#" class="social-link" target="_blank"
+          ><ion-icon name="logo-linkedin"></ion-icon
+        ></a>
+        <a
+          href="https://github.com/AnjitGC741"
+          class="social-link"
+          target="_blank"
+          ><ion-icon name="logo-github"></ion-icon
+        ></a>
+        <a href="#" class="social-link" target="_blank"
+          ><ion-icon name="logo-facebook"></ion-icon
+        ></a>
+        <a href="#" class="social-link" target="_blank"
+          ><ion-icon name="logo-instagram"></ion-icon
+        ></a>
+      </div>
+    </div>
+    <script src=" https://smtpjs.com/v3/smtp.js"></script>
+     <script src="script.js"></script>
+  </body>
+</html>
